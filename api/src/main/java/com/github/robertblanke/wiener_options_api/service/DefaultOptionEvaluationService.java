@@ -10,7 +10,7 @@ public class DefaultOptionEvaluationService implements OptionEvaluationService {
 
   @Override
   public OptionEvaluationDto evaluate(
-      int numberOfPaths, WienerProcessParameters wienerProcessParameters) {
+      final int numberOfPaths, final WienerProcessParameters wienerProcessParameters) {
     return null;
   }
 }
